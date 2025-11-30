@@ -11,8 +11,8 @@ import utils.CLIUtil;
 public class HospitalView {
     HospitalController hospitalController;
 
-    public HospitalView(){
-        this.hospitalController = new HospitalController();
+    public HospitalView(HospitalController hospitalController){
+        this.hospitalController = hospitalController;
     }
 
     public void menuUtama(){

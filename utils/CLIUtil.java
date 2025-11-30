@@ -10,7 +10,9 @@ public class CLIUtil {
   }
 
   public static int getInt() {
-    return scanner.nextInt();
+    int getValue = scanner.nextInt();
+    scanner.nextLine();
+    return getValue;
   }
 
   public static double getDouble() {

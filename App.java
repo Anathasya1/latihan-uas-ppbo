@@ -24,7 +24,7 @@ public class App {
         } catch (InvalidDataException e) {
             System.out.println("Gagal load dummy data: " + e.getMessage());
         }
-        HospitalView hospitalView = new HospitalView();
+        HospitalView hospitalView = new HospitalView(controller);
         hospitalView.menuUtama();
     }
 }
